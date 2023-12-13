@@ -33,7 +33,7 @@ export const sendMessage = createAction({
                 headers: {
                   accept: 'application/json',
                   'content-type': 'application/json',
-                  'X-WHIPPY-KEY': context.propsValue['getAPIKey']// '9a37e1f9-7b43-4098-b822-58986fe714ee'
+                  'X-WHIPPY-KEY': context.propsValue['getAPIKey']
                 },
                 body: JSON.stringify({from: '+12133381105', to: context.propsValue['getToNumber'], body: context.propsValue['getMessage']})
               };
