@@ -41,7 +41,7 @@ export const createContact = createAction({
                 phone: phoneNumber,
                 email: email,
                 name: name,
-                opt_in_to_all_channels: true
+                // opt_in_to_all_channels: true
             })
         };
     
